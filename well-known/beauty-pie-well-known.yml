@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.beautypie.com/.well-known/*
+host: https://www.beautypie.com
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: beauty-pie-openid-configuration.json
+  note: Shopify Customer Accounts OIDC discovery (issuer https://shopify.com/authentication/73264758967)
+- path: /.well-known/ucp
+  status: 200
+  file: beauty-pie-ucp.json
+  note: Universal Commerce Protocol (UCP) merchant profile — agent-driven commerce capabilities + payment handlers
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
