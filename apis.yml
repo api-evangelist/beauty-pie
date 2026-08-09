@@ -1,15 +1,13 @@
 aid: beauty-pie
 name: Beauty Pie
-description: >-
-  Beauty Pie is a members' beauty club that sells premium skincare, makeup, hair and
-  bodycare, fragrance and supplements direct from the world's top labs at close to
-  factory cost, passing the savings to members rather than paying traditional retail
-  markups. Founded by Marcia Kilgour, it operates a direct-to-consumer online store in
-  the UK and US. The storefront is built on Shopify and exposes a modern agent-native
-  commerce surface: a published /llms.txt (agents.md) instruction file, Shopify Customer
-  Accounts OpenID Connect for authentication, and a Universal Commerce Protocol (UCP) MCP
-  endpoint that lets buyer-approved AI shopping agents search the catalog, build carts and
-  complete checkout via Shop Pay. This profile was enriched from those public agent surfaces.
+description: 'Beauty Pie is a members'' beauty club that sells premium skincare, makeup, hair and bodycare,
+  fragrance and supplements direct from the world''s top labs at close to factory cost, passing the savings
+  to members rather than paying traditional retail markups. Founded by Marcia Kilgour, it operates a direct-to-consumer
+  online store in the UK and US. The storefront is built on Shopify and exposes a modern agent-native
+  commerce surface: a published /llms.txt (agents.md) instruction file, Shopify Customer Accounts OpenID
+  Connect for authentication, and a Universal Commerce Protocol (UCP) MCP endpoint that lets buyer-approved
+  AI shopping agents search the catalog, build carts and complete checkout via Shop Pay. This profile
+  was enriched from those public agent surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/beauty-pie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -32,7 +30,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 image: https://cdn.shopify.com/s/files/1/0732/6475/8967/files/beauty_pie_7fab5e86-48c8-4083-81b5-deacc00fe2d7.jpg?v=1782305542
 tags:
 - Company
@@ -46,10 +44,9 @@ tags:
 - Agentic Commerce
 apis:
 - name: Beauty Pie Agent Commerce (UCP)
-  description: >-
-    Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product
-    and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search,
-    cart, checkout and fulfillment, and Shopify Customer Accounts OIDC for authentication.
+  description: 'Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product
+    and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout
+    and fulfillment, and Shopify Customer Accounts OIDC for authentication.'
   humanURL: https://www.beautypie.com/llms.txt
   baseURL: https://www.beautypie.com
   properties:
@@ -93,8 +90,14 @@ common:
   url: https://www.beautypie.com/policies/privacy-policy
 - type: TermsOfService
   url: https://www.beautypie.com/policies/terms-of-service
+- type: Support
+  url: https://www.beautypie.com/pages/contact
+- type: Login
+  url: https://www.beautypie.com/account/login
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- beautypie
