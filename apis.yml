@@ -59,7 +59,6 @@ apis:
     and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, checkout
     and fulfillment, and Shopify Customer Accounts OIDC for authentication.'
   humanURL: https://www.beautypie.com/llms.txt
-  baseURL: https://www.beautypie.com
   properties:
   - type: MCPServer
     url: mcp/beauty-pie-mcp.yml
@@ -71,6 +70,9 @@ apis:
     url: scopes/beauty-pie-scopes.yml
   - type: WellKnown
     url: well-known/beauty-pie-well-known.yml
+  x-surface: platform-generated
+  x-platform: shopify
+  x-platform-surface: ucp
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
