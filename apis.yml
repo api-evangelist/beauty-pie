@@ -41,7 +41,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-08-08'
+modified: '2026-10-06'
 image: https://cdn.shopify.com/s/files/1/0732/6475/8967/files/beauty_pie_7fab5e86-48c8-4083-81b5-deacc00fe2d7.jpg?v=1782305542
 tags:
 - Company
@@ -79,6 +79,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.beautypie.com/blogs/articles.atom
+  type: BlogRSS
 - type: Website
   url: https://www.beautypie.com
 - type: MCPServer
