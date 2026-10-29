@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Beauty Pie is a company surfaced as a portfolio company of general-catalyst, index-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Beauty Pie is a members' beauty club that sells premium skincare, makeup, hair and bodycare, fragrance and supplements direct from the world's top labs at close to factory cost, passing the savings to members rather than paying traditional retail markups. Founded by Marcia Kilgour, it operates a direct-to-consumer online store in the UK and US. The storefront is built on Shopify and exposes a modern agent-native commerce surface: a published /llms.txt (agents.md) instruction file, Shopify Customer Accounts OpenID Connect for authentication, and a Universal Commerce Protocol (UCP) MCP endpoint that lets buyer-approved AI shopping agents search the catalog, build carts and complete checkout via Shop Pay. This profile was enriched from those public agent surfaces.
 
-Backed by: general-catalyst, index-ventures — https://www.beautypie.com
+**Areas:** Company · Consumer · Beauty · Cosmetics · Skincare · Retail · E-Commerce · Shopify · Agentic Commerce
+
+## Beauty Pie on APIs.io
+
+Everything profiled for Beauty Pie is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/beauty-pie/](https://apis.io/providers/beauty-pie/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Beauty Pie Agent Commerce (UCP)](https://apis.io/apis/beauty-pie/beauty-pie-agent-commerce-ucp/) — Agent-facing commerce surface for the Beauty Pie Shopify storefront: read-only product and collection JSON, a Universal Commerce Protocol (UCP) MCP endpoint…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [beauty-pie](https://apis.io/servers/beauty-pie/beauty-pie/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Beauty Pie Authentication](https://apis.io/security/beauty-pie/beauty-pie-authentication/)
+- [Beauty Pie Domain Security](https://apis.io/security/beauty-pie/beauty-pie-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Beauty Pie Scopes](https://apis.io/scopes/beauty-pie/beauty-pie-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.beautypie.com)
+- [Sign up](https://www.beautypie.com/pages/join-beauty-pie)
+- [Support](https://www.beautypie.com/pages/contact)
+- [Blog](https://www.beautypie.com/blogs/articles)
+- [Terms of service](https://www.beautypie.com/policies/terms-of-service)
+- [Privacy policy](https://www.beautypie.com/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 19.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 13.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | platform (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | platform (partial credit) |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/beauty-pie/](https://apis.io/providers/beauty-pie/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Beauty Pie: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/beauty-pie/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
